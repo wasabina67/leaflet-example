@@ -47,7 +47,7 @@ function App() {
       <main className="main">
         <MapContainer
           className="map"
-          center={[35.6812, 139.7671]}
+          center={spots[0].position}
           zoom={13}
         >
           <TileLayer
