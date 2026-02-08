@@ -11,6 +11,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture
 
-React 19 + TypeScript app built with Vite. Single-page app with entry point at `src/main.tsx` rendering `<App />`.
+React 19 + TypeScript + Leaflet app built with Vite. Single-page app with entry point at `src/main.tsx` rendering `<App />`.
+
+`src/App.tsx` uses `react-leaflet` to display an interactive map centered on Tokyo with 5 landmark markers. Marker icons are fixed for Vite by deleting `L.Icon.Default.prototype._getIconUrl` and using `L.Icon.Default.mergeOptions` with explicitly imported images.
 
 The build output goes to `docs/` (not the default `dist/`) for GitHub Pages hosting. The Vite `base` is set to `/leaflet-example/` to match the GitHub Pages path.
