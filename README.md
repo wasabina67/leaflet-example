@@ -2,7 +2,7 @@
 
 Minimal [Vite](https://vite.dev/) + [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) template for building single-page applications.
 
-**[Live Demo](https://wasabina67.is-a.dev/vite-react-typescript-template/)**
+**[Live Demo](https://wasabina67.is-a.dev/leaflet-example/)**
 
 ## Tech Stack
 
@@ -52,4 +52,4 @@ npm run dev
 
 ## Deployment
 
-Build output is configured to `docs/` for GitHub Pages deployment. The base path is set to `/vite-react-typescript-template/` in `vite.config.ts`.
+Build output is configured to `docs/` for GitHub Pages deployment. The base path is set to `/leaflet-example/` in `vite.config.ts`.
