@@ -1,2 +1,0 @@
-# leaflet-example
-Leaflet example

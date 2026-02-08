@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vite-react-typescript-template/',
+  base: '/leaflet-example/',
   plugins: [react()],
   build: {
     outDir: 'docs',
